@@ -3899,12 +3899,9 @@ body {
 
 .stats-grid {
   z-index: 2;
-  text-align: center;
   background-color: #000;
   border-bottom: 1px solid #ffffff69;
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  place-items: start center;
   padding-top: 20px;
   padding-bottom: 40px;
   font-family: Jost, sans-serif;
@@ -4263,7 +4260,6 @@ body {
   flex-flow: column;
   justify-content: flex-start;
   align-items: flex-start;
-  max-width: 540px;
   margin-bottom: 40px;
   font-size: 20px;
   display: flex;
@@ -4408,8 +4404,9 @@ body {
 }
 
 .text-block-8 {
-  max-width: 432px;
+  max-width: 500px;
   font-size: 18px;
+  line-height: 1.5;
 }
 
 .form__popup {
@@ -5238,6 +5235,11 @@ body {
 @media screen and (max-width: 479px) {
   .fn-menu-button {
     color: #fff;
+  }
+
+  .text-block-8 {
+    max-width: 500px;
+    font-size: 16px;
   }
 
   .fn-button-wrapper {
