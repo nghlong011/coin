@@ -44,6 +44,7 @@ template {
 
 a {
   background-color: #0000;
+  text-decoration: none;
 }
 
 a:active,
