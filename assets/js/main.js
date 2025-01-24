@@ -19,3 +19,8 @@ closePopup.forEach((button, index) => {
 popup_highlight_close.addEventListener('click', () => {
     popup_highlight.style.display = 'none';
 });
+
+// popup highlight tự ẩn sau 5s
+setTimeout(() => {
+    popup_highlight.style.display = 'none';
+}, 5000);
