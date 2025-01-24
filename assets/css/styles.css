@@ -5807,8 +5807,8 @@ body {
     border: 1.5px solid #fff;
     border-radius: 24px;
     flex-flow: column;
-    width: 100%;
-    max-width: 250px;
+    width: 80%;
+    max-width: 350px;
     padding: 12px;
     display: flex;
     position: relative;
