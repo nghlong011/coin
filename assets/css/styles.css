@@ -5796,3 +5796,26 @@ body {
   position: relative;
   background-color: #101010f2;
 }
+
+.link {
+  color: #B7F400;
+  text-decoration: none;
+  display: contents;
+}
+@media screen and (max-width: 479px){
+  .popup_highlight_content {
+    border: 1.5px solid #fff;
+    border-radius: 24px;
+    flex-flow: column;
+    width: 100%;
+    max-width: 250px;
+    padding: 12px;
+    display: flex;
+    position: relative;
+    background-color: #101010f2;
+    font-size: 12px;
+  }
+  .popup_highlight_content h2 {
+    font-size: 18px;
+  }
+}
